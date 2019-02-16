@@ -1,6 +1,7 @@
 <!-- View Child to reference component -->
 <app-navbar (onRefresh)="refresh()"></app-navbar>
-<app-dashboard></app-dashboard>
+<ng-template #alertBox></ng-template>
+<app-dashboard (onRefresh)="alert($event)"></app-dashboard>
 <!-- Output Events and Template Variables Method -->
 <!-- <app-navbar (onRefresh)="dashboard.generateData()"></app-navbar>
 <app-dashboard #dashboard></app-dashboard> -->
