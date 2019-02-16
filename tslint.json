@@ -57,7 +57,7 @@
     "no-empty-interface": true,
     "no-eval": true,
     "no-inferrable-types": [
-      true,
+      false,
       "ignore-params"
     ],
     "no-misused-new": true,
@@ -122,9 +122,10 @@
     ],
     "component-selector": [
       true,
-      "element",
+      "attribute",
       "app",
-      "kebab-case"
+      "kebab-case",
+      "attribute"
     ],
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,

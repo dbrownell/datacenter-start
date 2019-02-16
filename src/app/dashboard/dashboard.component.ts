@@ -3,6 +3,7 @@ import { Metric } from './Metric';
 import { Node } from './Node';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
